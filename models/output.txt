@@ -1,0 +1,106 @@
+=== Inventory Management ML Pipeline ===
+Loading and preprocessing data...
+Data split: 800 train, 100 val, 100 test
+
+=== Training Regression Model (Demand Forecasting) ===
+Epoch 0 | Train MAE: 802.885 | Val MAE: 821.31
+Epoch 15 | Train MAE: 665.352 | Val MAE: 684.791
+Epoch 30 | Train MAE: 444.706 | Val MAE: 476.503
+Epoch 45 | Train MAE: 249.541 | Val MAE: 294.14
+Epoch 60 | Train MAE: 182.345 | Val MAE: 222.518
+Epoch 75 | Train MAE: 152.852 | Val MAE: 166.217
+Epoch 90 | Train MAE: 143.626 | Val MAE: 163.079
+Epoch 105 | Train MAE: 136.805 | Val MAE: 155.577
+Epoch 120 | Train MAE: 140.42 | Val MAE: 158.202
+Epoch 135 | Train MAE: 131.019 | Val MAE: 157.96
+Epoch 150 | Train MAE: 127.482 | Val MAE: 156.301
+Epoch 165 | Train MAE: 126.997 | Val MAE: 155.926
+Epoch 180 | Train MAE: 121.497 | Val MAE: 158.525
+Epoch 195 | Train MAE: 121.876 | Val MAE: 158.128
+Epoch 210 | Train MAE: 121.17 | Val MAE: 153.722
+Epoch 225 | Train MAE: 117.591 | Val MAE: 155.183
+Epoch 240 | Train MAE: 120.847 | Val MAE: 156.88
+Epoch 255 | Train MAE: 117.204 | Val MAE: 156.093
+Epoch 270 | Train MAE: 115.45 | Val MAE: 156.552
+Epoch 285 | Train MAE: 115.976 | Val MAE: 155.265
+Epoch 300 | Train MAE: 114.78 | Val MAE: 161.813
+Epoch 315 | Train MAE: 116.942 | Val MAE: 160.634
+Epoch 330 | Train MAE: 113.027 | Val MAE: 160.989
+Epoch 345 | Train MAE: 112.335 | Val MAE: 161.565
+Epoch 360 | Train MAE: 115.458 | Val MAE: 159.15
+Epoch 375 | Train MAE: 116.508 | Val MAE: 158.914
+Epoch 390 | Train MAE: 111.136 | Val MAE: 158.287
+Epoch 405 | Train MAE: 110.865 | Val MAE: 158.684
+Epoch 420 | Train MAE: 112.504 | Val MAE: 162.441
+Epoch 435 | Train MAE: 108.333 | Val MAE: 160.82
+Epoch 450 | Train MAE: 112.062 | Val MAE: 160.718
+Epoch 465 | Train MAE: 109.96 | Val MAE: 163.493
+Epoch 480 | Train MAE: 109.263 | Val MAE: 162.687
+Epoch 495 | Train MAE: 112.226 | Val MAE: 161.852
+Epoch 510 | Train MAE: 109.176 | Val MAE: 160.227
+Epoch 525 | Train MAE: 106.717 | Val MAE: 160.468
+Epoch 540 | Train MAE: 108.523 | Val MAE: 162.196
+Epoch 555 | Train MAE: 111.29 | Val MAE: 161.581
+Epoch 570 | Train MAE: 111.395 | Val MAE: 162.154
+Epoch 585 | Train MAE: 111.739 | Val MAE: 160.23
+Best model at epoch 142 with Val MAE: 147.122
+
+=== Training Classification Model (Inventory Status) ===
+Epoch 0 | Train Loss: 0.712752 | Train Acc: 69.5% | Val Loss: 0.373266 | Val Acc: 89%
+Epoch 10 | Train Loss: 0.0825324 | Train Acc: 97.875% | Val Loss: 0.202101 | Val Acc: 89%
+Epoch 20 | Train Loss: 0.0444741 | Train Acc: 98.5% | Val Loss: 0.197925 | Val Acc: 92%
+Epoch 30 | Train Loss: 0.0221409 | Train Acc: 99.75% | Val Loss: 0.194951 | Val Acc: 93%
+Epoch 40 | Train Loss: 0.0104186 | Train Acc: 99.75% | Val Loss: 0.184317 | Val Acc: 91%
+Epoch 50 | Train Loss: 0.0138788 | Train Acc: 99.625% | Val Loss: 0.279944 | Val Acc: 90%
+Epoch 60 | Train Loss: 0.0167148 | Train Acc: 99.625% | Val Loss: 0.262477 | Val Acc: 93%
+Epoch 70 | Train Loss: 0.0118341 | Train Acc: 99.5% | Val Loss: 0.220063 | Val Acc: 92%
+Epoch 80 | Train Loss: 0.00654588 | Train Acc: 99.875% | Val Loss: 0.216289 | Val Acc: 92%
+Epoch 90 | Train Loss: 0.00236754 | Train Acc: 100% | Val Loss: 0.247834 | Val Acc: 90%
+Epoch 100 | Train Loss: 0.00753072 | Train Acc: 99.625% | Val Loss: 0.240363 | Val Acc: 91%
+Epoch 110 | Train Loss: 0.00325398 | Train Acc: 99.875% | Val Loss: 0.230921 | Val Acc: 92%
+Epoch 120 | Train Loss: 0.00131691 | Train Acc: 100% | Val Loss: 0.241772 | Val Acc: 92%
+Epoch 130 | Train Loss: 0.00258369 | Train Acc: 100% | Val Loss: 0.25359 | Val Acc: 92%
+Epoch 140 | Train Loss: 0.00214711 | Train Acc: 99.875% | Val Loss: 0.248013 | Val Acc: 93%
+Epoch 150 | Train Loss: 0.00170188 | Train Acc: 100% | Val Loss: 0.243189 | Val Acc: 92%
+Epoch 160 | Train Loss: 0.0043994 | Train Acc: 99.875% | Val Loss: 0.241904 | Val Acc: 92%
+Epoch 170 | Train Loss: 0.00331321 | Train Acc: 100% | Val Loss: 0.24666 | Val Acc: 92%
+Epoch 180 | Train Loss: 0.00219058 | Train Acc: 100% | Val Loss: 0.23709 | Val Acc: 92%
+Epoch 190 | Train Loss: 0.00746271 | Train Acc: 99.875% | Val Loss: 0.21274 | Val Acc: 92%
+Epoch 200 | Train Loss: 0.000784347 | Train Acc: 100% | Val Loss: 0.225098 | Val Acc: 92%
+Epoch 210 | Train Loss: 0.00431132 | Train Acc: 99.75% | Val Loss: 0.218504 | Val Acc: 92%
+Epoch 220 | Train Loss: 0.0051384 | Train Acc: 99.75% | Val Loss: 0.22086 | Val Acc: 92%
+Epoch 230 | Train Loss: 0.00359023 | Train Acc: 99.875% | Val Loss: 0.2195 | Val Acc: 92%
+Epoch 240 | Train Loss: 0.00317404 | Train Acc: 99.75% | Val Loss: 0.217553 | Val Acc: 92%
+Epoch 250 | Train Loss: 0.00167335 | Train Acc: 100% | Val Loss: 0.224015 | Val Acc: 92%
+Epoch 260 | Train Loss: 0.0034678 | Train Acc: 99.75% | Val Loss: 0.216822 | Val Acc: 92%
+Epoch 270 | Train Loss: 0.00254156 | Train Acc: 99.875% | Val Loss: 0.221486 | Val Acc: 92%
+Epoch 280 | Train Loss: 0.00359987 | Train Acc: 99.875% | Val Loss: 0.219861 | Val Acc: 92%
+Epoch 290 | Train Loss: 0.000736235 | Train Acc: 100% | Val Loss: 0.222565 | Val Acc: 92%
+Best model at epoch 8 with Val Acc: 94%
+
+=== Final Evaluation on Test Set ===
+
+Regression Model Results:
+RMSE: 219.725
+MAE: 134.041
+MAPE (%): 27.6296%
+R² Score: 0.843645
+
+Classification Model Results:
+Overall Accuracy: 94%
+In Stock - Precision: 0.902439, Recall: 1, F1: 0.948718
+Low Stock - Precision: 1, Recall: 0.76, F1: 0.863636
+Expiring Soon - Precision: 0.95, Recall: 1, F1: 0.974359
+
+Predictions saved to: inventory_models/predictions.csv
+
+=== Example Inference ===
+Predicted Demand (next 30 days): 930.504
+Predicted Inventory Status: In Stock
+
+=== Batch Prediction (first 5 samples) ===
+Sample 1: Demand = 930.504, Status = In Stock
+Sample 2: Demand = 676.921, Status = Low Stock
+Sample 3: Demand = 1297.06, Status = Expiring Soon
+Sample 4: Demand = 703.917, Status = Expiring Soon
+Sample 5: Demand = 580.192, Status = In Stock
